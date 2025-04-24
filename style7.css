@@ -1,0 +1,47 @@
+ header{
+       text-decoration: underline ;
+       color: rgb(246, 42, 151);
+
+ }
+ .b{
+   text-align: center;
+   
+ }
+ .c{
+ background-color: rgb(255, 225, 240);
+margin-left: 585px;
+width: 330px;
+height: 420px;
+border-radius: 10px;
+border: solid black;
+display: grid;   
+grid-template-columns: repeat(4,60px) ;
+grid-template-rows: repeat(6,60px);
+
+gap: 5px;
+justify-content: center;
+
+}
+.Res{
+   
+   margin-top: 10px;
+   border :rgb(0, 0, 0) solid;
+   background-color: rgb(179, 179, 179);
+   grid-column: 1/5;
+   display: flex;
+   justify-content: end;
+   font-size :40px;;
+}
+.eg{
+    grid-row: 3/7;
+    grid-column: 4/5;
+    background-color: rgb(245, 120, 187);
+    border-radius: 15px;
+    font-size: 25px;
+}
+.o{
+   border : none; 
+   border-radius: 30px;
+   background-color: rgb(226, 156, 194);
+   font-size: 20px;
+}
